@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import AppDecoration from '../atomics/AppDecoration';
 
-const AppSection = ({ title, children, decoration, noSeparator }) => {
+const AppSection = ({ title = '', decoration = true, noSeparator = false, children }) => {
   const splitTitleColor = () => {
     const titleBase = title.split(' ');
     const titleStart = titleBase.slice(0, -1).join(' ');
@@ -31,12 +31,6 @@ AppSection.propTypes = {
   title: PropTypes.string,
   decoration: PropTypes.bool,
   noSeparator: PropTypes.bool,
-};
-
-AppSection.defaultProps = {
-  title: '',
-  decoration: true,
-  noSeparator: false,
 };
 
 export default AppSection;

@@ -1,13 +1,18 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 
-const AppHead = ({ title, description, keyword, image }) => (
+const AppHead = ({
+  title = 'Matthew Riechers',
+  description = 'I am a senior mobile app developer with 9+ years of experience.',
+  keyword = '',
+  image = '/icon-192x192.png',
+}) => (
   <Head>
     <title>{title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="keywords"
-      content={`Matthew Riechers, Edwin, Tantawi, edwintantawi, edwintantawi, wintantawi, web developer, portfolio, frontend developer, web developer, frontend enginer, indonesia, Matthew Riechers, indonesia, medan, tantawi, Matthew Riechers portfolio, software enginer, ${keyword}`}
+      content={`Matthew Riechers, Matthew, Riechers, Mobile app, iOS, React native,  Matthew Riechers portfolio, software enginer, ${keyword}`}
     />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -29,14 +34,6 @@ AppHead.propTypes = {
   description: PropTypes.string,
   keyword: PropTypes.string,
   image: PropTypes.string,
-};
-
-AppHead.defaultProps = {
-  title: 'Matthew Riechers',
-  description:
-    'I am a student from Indonesia, who focuses on web development, especially frontend web development.',
-  keyword: '',
-  image: '/icon-192x192.png',
 };
 
 export default AppHead;

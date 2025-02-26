@@ -9,7 +9,14 @@ import AppCtaSection from '../molecules/AppCtaSection';
 import AppHero from '../molecules/AppHero';
 import AppFooter from '../atomics/AppFooter';
 
-const AppShell = ({ title, keyword, description, hero, cta, children }) => (
+const AppShell = ({
+  title = 'Matthew Riechers',
+  keyword = '',
+  description = 'I am a senior mobile app developer with 9+ years of experience.',
+  hero = false,
+  cta = true,
+  children
+}) => (
   <>
     <AppHead title={title} description={description} keyword={keyword} />
     <AppNav />
@@ -31,15 +38,6 @@ AppShell.propTypes = {
   description: PropTypes.string,
   hero: PropTypes.bool,
   cta: PropTypes.bool,
-};
-
-AppShell.defaultProps = {
-  title: 'Matthew Riechers',
-  description:
-    'I am a student from Indonesia, who focuses on web development, especially frontend web development.',
-  keyword: '',
-  hero: false,
-  cta: true,
 };
 
 export default AppShell;
