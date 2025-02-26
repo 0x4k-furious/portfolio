@@ -1,0 +1,415 @@
+{
+  "name": "Matthew Riechers",
+  "status": "Mobile Application Developer",
+  "description": "I am passionate and interested in the ever-growing field of Mobile App development",
+  "navigations": [
+    {
+      "id": 1,
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "name": "Resume",
+      "url": "/resume"
+    },
+    {
+      "id": 3,
+      "name": "Projects",
+      "url": "/projects"
+    },
+    {
+      "id":4,
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "id": 5,
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "App Ui Ux design",
+      "description": "Develop a good user interface and user experience, with a beautiful and comfortable appearance",
+      "icon": "/services/service-uiux.svg"
+    },
+    {
+      "id": 2,
+      "name": "iOS development",
+      "description": "Developing applications for iOS system platforms including iPhone, Apple Watch, Apple TV. With good performance",
+      "icon": "/services/service-website.svg"
+    },
+    {
+      "id": 3,
+      "name": "Cross Platform Development",
+      "description": "Developing a very well-functioning mobile applications, for both Android and iOS",
+      "icon": "/services/service-webapps.svg"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "iOS",
+      "icon": "/skills/skill-ios.svg"
+    },
+    {
+      "id": 2,
+      "name": "Android",
+      "icon": "/skills/skill-android.svg"
+    },
+    {
+      "id": 3,
+      "name": "Swift",
+      "icon": "/skills/skill-swift.svg"
+    },
+    {
+      "id": 4,
+      "name": "JavaScript",
+      "icon": "/skills/skill-javascript.svg"
+    },
+    {
+      "id": 5,
+      "name": "Objective-C",
+      "icon": "/skills/skill-objectivec.svg"
+    },
+    {
+      "id": 6,
+      "name": "React",
+      "icon": "/skills/skill-reactjs.svg"
+    },
+    {
+      "id": 7,
+      "name": "React Native",
+      "icon": "/skills/skill-reactjs.svg"
+    },
+    {
+      "id": 8,
+      "name": "Firebase",
+      "icon": "/skills/skill-firebase.svg"
+    },
+    {
+      "id": 9,
+      "name": "TailwindCSS",
+      "icon": "/skills/skill-tailwindcss.svg"
+    },
+    {
+      "id": 10,
+      "name": "Android Studio",
+      "icon": "/skills/skill-androidstudio.svg"
+    },
+    {
+      "id": 11,
+      "name": "Realm",
+      "icon": "/skills/skill-realm.svg"
+    },
+    {
+      "id": 12,
+      "name": "Sqlite",
+      "icon": "/skills/skill-sqlite.svg"
+    },
+    {
+      "id": 13,
+      "name": "Google Cloud",
+      "icon": "/skills/skill-gcp.svg"
+    },
+    {
+      "id": 14,
+      "name": "Git",
+      "icon": "/skills/skill-git.svg"
+    },
+    {
+      "id": 15,
+      "name": "GitHub",
+      "icon": "/skills/skill-github.svg"
+    },
+    {
+      "id": 16,
+      "name": "Jira",
+      "icon": "/skills/skill-jira.svg"
+    }
+        
+  ],
+  "project": {
+    "title": "Project",
+    "desctiption": "some of the projects that I've worked on to completion with some of the technologies",
+    "contents": [
+      {
+        "id": 1,
+        "top": false,
+        "image": "/projects/project-homes.png",
+        "name": "Homes(Real Estate Search App)",
+        "stack": "Swift, SwiftUI, MVVM, GraphQL, Google Map API, MapKit, Firebase Firestore, Xcode",
+        "category": "Personal Project",
+        "google": "https://play.google.com/store/apps/details?id=com.homes.homesdotcom",
+        "app": "https://apps.apple.com/us/app/homes-com-real-estate-search/id306423353"
+      },
+      {
+        "id": 2,
+        "top": true,
+        "image": "/projects/project-padel.png",
+        "name": "Padel Mates(Sports Matchmaking App)",
+        "stack": "React Native, Redux, AsynStorage, TensorFlow, Fireabse, SQLite, CloudKit, Stripe, Apple Pay",
+        "category": "Personal Project",
+        "google": "https://play.google.com/store/apps/details?id=com.padelmates",
+        "app": "https://apps.apple.com/us/app/padel-mates/id1531797995"
+      },
+      {
+        "id": 3,
+        "top": false,
+        "image": "/projects/project-chalkboard.png",
+        "name": "Chalkboard Fantasy Sports(Real-Time Sports Data App)",
+        "stack": "Swift, UIKit, CoreData, Fireabse, Realm Database, AES-256 Encryption, Xcode, FCM",
+        "category": "Personal Project",
+        "google": "https://play.google.com/store/apps/details?id=com.taild",
+        "app": "https://apps.apple.com/us/app/chalkboard-fantasy-sports/id1489084813"
+      },
+      {
+        "id": 4,
+        "top": false,
+        "image": "/projects/project-pdbkids.png",
+        "name": "PBS Kids Video(Streaming & Educational Content App)",
+        "stack": "React Native, Redux, AVPlayer, HLS Streaming, Face ID, Touch ID, Hermes Engine, Flipper",
+        "category": "Personal Project",
+        "google": "https://play.google.com/store/apps/details?id=org.pbskids.video",
+        "app": "https://apps.apple.com/us/app/pbs-kids-video/id435138734"
+      },
+      {
+        "id": 5,
+        "top": false,
+        "image": "/projects/project-homesnap.png",
+        "name": "Homesnap(Real Estate Search App)",
+        "stack": "Swift, Objective-C, UIKit, CoreData, Google Maps API, Firebase Firestore, GraphQL",
+        "category": "Personal Project",
+        "google": "https://play.google.com/store/apps/details?id=com.homesnap.citysnap",
+        "app": "https://apps.apple.com/sk/app/citysnap-nyc-rentals-homes/id1603890256"
+      },
+      {
+        "id": 6,
+        "top": true,
+        "image": "/projects/project-kanopy.png",
+        "name": "Kanopy(Video Streaming On-Demand App)",
+        "stack": "React Native, TypeScript, Redux, WebSocket, Firebase, Apollo Client, AVplayer, DRM, Apple Pay, Stripe, RevenueCat",
+        "category": "Personal Project",
+        "google": "https://play.google.com/store/apps/details?id=com.kanopy",
+        "app": "https://apps.apple.com/us/app/kanopy/id1205614510"
+      },
+      {
+        "id": 7,
+        "top": false,
+        "image": "/projects/project-respirosa.png",
+        "name": "Respirosa(Medi Tech App)",
+        "stack": "Swift, SwiftUI, Combine, Core ML, HealthKit, ARKit, RealityKit, RevenueCat, Stripe",
+        "category": "Personal Project",
+        "app": "https://apps.apple.com/gb/app/respirosa/id1590414617"
+      },
+      {
+        "id": 9,
+        "top": true,
+        "image": "/projects/project-ultimatestore.png",
+        "name": "Ultimate Store(Online Shopping App)",
+        "stack": "Swift, iOS, UIKit, Java, Android, Kotlin",
+        "category": "Personal Project",
+        "google": "https://play.google.com/store/apps/details?id=com.ultimatesol.ultimateStore.ultimatestore&hl=en",
+        "app": "https://apps.apple.com/fr/app/ultimate-store/id1516955461"
+      },
+      {
+        "id": 10,
+        "top": true,
+        "image": "/projects/project-citizenq.png",
+        "name": "Citizen YouQ(Health Diagnos App)",
+        "stack": "Swift, SwiftUI, iOS, Express, Machine Learning, TensorFlow",
+        "category": "Personal Project",
+        "google": "https://play.google.com/store/apps/details?id=com.czsmart.youq",
+        "app": "https://apps.apple.com/us/app/cz-smart-youq-by-citizen/id6446219881"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Chat with me through some of the contacts you can call to get acquainted.",
+    "contents": [
+      {
+        "id": 1,
+        "icon": "fab fa-whatsapp",
+        "name": "WhatsApp",
+        "username": "+16452266350",
+        "category": "Social Media",
+        "url": "https://wa.me/+16452266350"
+      },
+      {
+        "id": 2,
+        "icon": "fab fa-linkedin-in",
+        "name": "Linkedin",
+        "username": "Matthew Riechers",
+        "category": "Social Media",
+        "url": "https://www.linkedin.com/in/mathew-riechers"
+      },
+      {
+        "id": 3,
+        "icon": "fab fa-github",
+        "name": "Github",
+        "username": "passionhand",
+        "category": "Social Media",
+        "url": "https://github.com/passionhand"
+      },
+      {
+        "id": 4,
+        "icon": "far fa-envelope",
+        "name": "Gmail",
+        "username": "dkhelios.dev@gmail.com",
+        "category": "Email",
+        "url": "mailto:dkhelios.dev@gmail.com"
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "description": "Get acquainted further about me, story and biography of my life",
+    "contents": [
+      {
+        "id": 1,
+        "name": "My History",
+        "description": "Hi, hello, introduce my name is Matthew Riechers, I come from United States, precisely in Huntington Be, California. I have 9+ years of experience in mobile application development."
+      },
+      {
+        "id": 2,
+        "name": "What am i Doing",
+        "description": "I'm struggling to shape the future of mobile applications in different industries including Fintech, Real Estate, Healthcare, E-commerce and Education."
+      },
+      {
+        "id": 3,
+        "name": "What Next",
+        "description": "Become a high-impact leader in mobile development by mastering cutting-edge technologies, optimizing app performance, mentoring teams, driving innovation, and aligning technical solutions with business success. 🚀"
+      },
+      {
+        "id": 4,
+        "name": "Dreams and Wishes",
+        "description": "Aspiring to revolutionize the mobile landscape by building groundbreaking applications that enhance everyday life, leading teams to push technological boundaries, and shaping the future of digital experiences through innovation and visionary leadership."
+      }
+    ]
+  },
+  "resume": {
+    "title": "Resume",
+    "description": "explore my experiences, and education, as well as my activeness",
+    "contents": [
+      {
+        "id": 2,
+        "title": "Professional Experience",
+        "contents": [
+          {
+            "id": 5,
+            "timestamp": "May 2022 - Present",
+            "name": "Sr Mobile Application Developer",
+            "info": "Expresia",
+            "description": "Showcasing senior-level skill in mobile development:",
+            "url": "https://www.expresia.com/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Homes(Real Estate Search App) Development",
+                "level": "Intermediate"
+              },
+              {
+                "id": 2,
+                "name": "Padel Mates(Sports Matchmaking App) Development",
+                "level": "Expert"
+              },
+              {
+                "id": 3,
+                "name": "Chalkboard Fantasy Sports(Real-Time Sports Data App) Development",
+                "level": "Expert"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "timestamp": "Oct 2022 - Aug 2023",
+            "name": "Project Manager",
+            "info": "Kanopy Inc",
+            "description": "Hands-on experience in leadership:",
+            "url": "https://www.kanopy.com/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Kanopy(Video Streaming On-Demand App) Development",
+                "level": "Beginner"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "timestamp": " Aug 2018 - Apr 2022",
+            "name": "Mobile Application Developer",
+            "info": "Topflight Apps",
+            "description": "Progress to real full stack mobile developer with technical expertise:",
+            "url": "https://topflightapps.com/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Mi-Life(HIPPA-compliant AI patient Aare App) Development",
+                "level": "Beginner"
+              },
+              {
+                "id": 2,
+                "name": "React Native(Cryptocurrency App) Development",
+                "level": "Intermediate"
+              },
+              {
+                "id": 3,
+                "name": "Respirosa(Meditation & Breakthwork App) Development",
+                "level": "Intermediate"
+              },
+              {
+                "id": 4,
+                "name": "Sherpa(Fintech App) Development",
+                "level": "Intermediate"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "timestamp": "Jul 2015 - Aug 2018",
+            "name": "Mobile Application Developer",
+            "info": "Savvy Apps",
+            "description": "First landing job after university graduation:",
+            "url": "https://www.getsavvyapp.com/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Homesnap(Real Estate Search App) Development",
+                "level": "Beginner"
+              },
+              {
+                "id": 2,
+                "name": "LifeFuel(nutrition-tracking platform) Development",
+                "level": "Intermediate"
+              },
+              {
+                "id": 3,
+                "name": "PBS Kids Video(Streaming & Educational Content App) Development",
+                "level": "Expert"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Educational Level",
+        "contents": [
+          {
+            "id": 1,
+            "timestamp": "2011 - 2015",
+            "name": "San Diego State University",
+            "info": "University study",
+            "description": "Bachelor of Science in Computer Science",
+            "url": "https://www.sdsu.edu/"
+          }
+        ]
+      }
+    ]
+  }
+}
